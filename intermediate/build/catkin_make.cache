@@ -1,0 +1,2 @@
+foobar
+-DCATKIN_DEVEL_PREFIX=/home/wangq/Projects/ROS/catkin/intermediate/devel -DCMAKE_INSTALL_PREFIX=/home/wangq/Projects/ROS/catkin/intermediate/install -G Unix Makefiles

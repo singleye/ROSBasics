@@ -1,0 +1,8 @@
+prefix=/home/wangq/Projects/ROS/catkin/intermediate/devel
+
+Name: foobar
+Description: Description of foobar
+Version: 1.2.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
