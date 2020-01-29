@@ -81,6 +81,7 @@ add_service_files(
 add_action_files(
   FILES
   Fibonacci.action
+  Averaging.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -196,7 +197,7 @@ target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_dependencies(add_two_ints_client beginner_tutorials_gencpp)
 #add_dependencies(add_two_ints_client beginner_tutorials_generate_services_cpp)
 
-# action
+# fibonacci action
 add_executable(fibonacci_server src/fibonacci_server.cpp)
 target_link_libraries(fibonacci_server ${catkin_LIBRARIES})
 add_dependencies(fibonacci_server ${beginner_tutorials_EXPORTED_TARGETS})
@@ -204,6 +205,19 @@ add_dependencies(fibonacci_server ${beginner_tutorials_EXPORTED_TARGETS})
 add_executable(fibonacci_client src/fibonacci_client.cpp)
 target_link_libraries(fibonacci_client ${catkin_LIBRARIES})
 add_dependencies(fibonacci_client ${beginner_tutorials_EXPORTED_TARGETS})
+
+# averaging action
+add_executable(averaging_server src/averaging_server.cpp)
+target_link_libraries(averaging_server ${catkin_LIBRARIES})
+add_dependencies(averaging_server ${beginner_tutorials_EXPORTED_TARGETS})
+
+add_executable(averaging_client src/averaging_client.cpp)
+target_link_libraries(averaging_client ${catkin_LIBRARIES})
+add_dependencies(averaging_client ${beginner_tutorials_EXPORTED_TARGETS})
+
+# timer
+add_executable(timer src/timer.cpp)
+target_link_libraries(timer ${catkin_LIBRARIES})
 
 
 #############

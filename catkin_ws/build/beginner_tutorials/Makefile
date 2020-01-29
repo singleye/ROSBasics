@@ -168,6 +168,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/timer.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/timer.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/timer.dir/rule
+
+# Convenience name for target.
+timer: beginner_tutorials/CMakeFiles/timer.dir/rule
+
+.PHONY : timer
+
+# fast build rule for target.
+timer/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/timer.dir/build.make beginner_tutorials/CMakeFiles/timer.dir/build
+.PHONY : timer/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/averaging_server.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/averaging_server.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/averaging_server.dir/rule
+
+# Convenience name for target.
+averaging_server: beginner_tutorials/CMakeFiles/averaging_server.dir/rule
+
+.PHONY : averaging_server
+
+# fast build rule for target.
+averaging_server/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_server.dir/build.make beginner_tutorials/CMakeFiles/averaging_server.dir/build
+.PHONY : averaging_server/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/add_two_ints_client.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/add_two_ints_client.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/add_two_ints_client.dir/rule
@@ -288,19 +318,94 @@ beginner_tutorials_geneus/fast:
 .PHONY : beginner_tutorials_geneus/fast
 
 # Convenience name for target.
-beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-beginner_tutorials_gencpp: beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule
+beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
 
-.PHONY : beginner_tutorials_gencpp
+.PHONY : beginner_tutorials_generate_messages_cpp
 
 # fast build rule for target.
-beginner_tutorials_gencpp/fast:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/build
-.PHONY : beginner_tutorials_gencpp/fast
+beginner_tutorials_generate_messages_cpp/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
+.PHONY : beginner_tutorials_generate_messages_cpp/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule
+
+# Convenience name for target.
+fibonacci_client: beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule
+
+.PHONY : fibonacci_client
+
+# fast build rule for target.
+fibonacci_client/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_client.dir/build
+.PHONY : fibonacci_client/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciActionResult
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciActionResult/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingGoal.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingGoal.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingGoal.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingGoal: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingGoal.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingGoal
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingGoal/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingGoal.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingGoal.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingGoal/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingActionGoal
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionGoal.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingActionGoal/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
@@ -316,6 +421,21 @@ std_msgs_generate_messages_py: beginner_tutorials/CMakeFiles/std_msgs_generate_m
 std_msgs_generate_messages_py/fast:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingAction.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingAction.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingAction.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingAction: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingAction.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingAction
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingAction/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingAction.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingAction.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingAction/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
@@ -453,6 +573,36 @@ _beginner_tutorials_generate_messages_check_deps_FibonacciAction/fast:
 .PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciAction/fast
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule
+
+# Convenience name for target.
+beginner_tutorials_gencpp: beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule
+
+.PHONY : beginner_tutorials_gencpp
+
+# fast build rule for target.
+beginner_tutorials_gencpp/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/build
+.PHONY : beginner_tutorials_gencpp/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingFeedback.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingFeedback.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingFeedback.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingFeedback: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingFeedback.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingFeedback
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingFeedback/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingFeedback.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingFeedback.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingFeedback/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
@@ -513,6 +663,21 @@ beginner_tutorials_generate_messages_eus/fast:
 .PHONY : beginner_tutorials_generate_messages_eus/fast
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionResult.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionResult.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionResult.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingActionResult: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionResult.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingActionResult
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingActionResult/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionResult.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingActionResult.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingActionResult/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
@@ -526,6 +691,21 @@ std_msgs_generate_messages_lisp: beginner_tutorials/CMakeFiles/std_msgs_generate
 std_msgs_generate_messages_lisp/fast:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/averaging_client.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/averaging_client.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/averaging_client.dir/rule
+
+# Convenience name for target.
+averaging_client: beginner_tutorials/CMakeFiles/averaging_client.dir/rule
+
+.PHONY : averaging_client
+
+# fast build rule for target.
+averaging_client/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_client.dir/build.make beginner_tutorials/CMakeFiles/averaging_client.dir/build
+.PHONY : averaging_client/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
@@ -678,21 +858,6 @@ actionlib_msgs_generate_messages_lisp/fast:
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciFeedback.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciFeedback.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciFeedback.dir/rule
@@ -706,6 +871,21 @@ _beginner_tutorials_generate_messages_check_deps_FibonacciFeedback: beginner_tut
 _beginner_tutorials_generate_messages_check_deps_FibonacciFeedback/fast:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciFeedback.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciFeedback.dir/build
 .PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciFeedback/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciResult.dir/rule:
@@ -828,34 +1008,19 @@ _beginner_tutorials_generate_messages_check_deps_FibonacciActionGoal/fast:
 .PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciActionGoal/fast
 
 # Convenience name for target.
-beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule
 
 # Convenience name for target.
-fibonacci_client: beginner_tutorials/CMakeFiles/fibonacci_client.dir/rule
+_beginner_tutorials_generate_messages_check_deps_AddTwoInts: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule
 
-.PHONY : fibonacci_client
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AddTwoInts
 
 # fast build rule for target.
-fibonacci_client/fast:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_client.dir/build
-.PHONY : fibonacci_client/fast
-
-# Convenience name for target.
-beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule
-
-# Convenience name for target.
-_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/rule
-
-.PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciActionResult
-
-# fast build rule for target.
-_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult/fast:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciActionResult.dir/build
-.PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciActionResult/fast
+_beginner_tutorials_generate_messages_check_deps_AddTwoInts/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AddTwoInts/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
@@ -888,6 +1053,21 @@ roscpp_generate_messages_cpp/fast:
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingResult.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingResult.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingResult.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingResult: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingResult.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingResult
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_AveragingResult/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingResult.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AveragingResult.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_AveragingResult/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciGoal.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciGoal.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciGoal.dir/rule
@@ -901,36 +1081,6 @@ _beginner_tutorials_generate_messages_check_deps_FibonacciGoal: beginner_tutoria
 _beginner_tutorials_generate_messages_check_deps_FibonacciGoal/fast:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciGoal.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_FibonacciGoal.dir/build
 .PHONY : _beginner_tutorials_generate_messages_check_deps_FibonacciGoal/fast
-
-# Convenience name for target.
-beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule
-
-# Convenience name for target.
-_beginner_tutorials_generate_messages_check_deps_AddTwoInts: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/rule
-
-.PHONY : _beginner_tutorials_generate_messages_check_deps_AddTwoInts
-
-# fast build rule for target.
-_beginner_tutorials_generate_messages_check_deps_AddTwoInts/fast:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_AddTwoInts.dir/build
-.PHONY : _beginner_tutorials_generate_messages_check_deps_AddTwoInts/fast
-
-# Convenience name for target.
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
-
-.PHONY : beginner_tutorials_generate_messages_cpp
-
-# fast build rule for target.
-beginner_tutorials_generate_messages_cpp/fast:
-	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
-.PHONY : beginner_tutorials_generate_messages_cpp/fast
 
 src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
 
@@ -985,6 +1135,60 @@ src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
 src/add_two_ints_server.cpp.s:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/add_two_ints_server.dir/build.make beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 .PHONY : src/add_two_ints_server.cpp.s
+
+src/averaging_client.o: src/averaging_client.cpp.o
+
+.PHONY : src/averaging_client.o
+
+# target to build an object file
+src/averaging_client.cpp.o:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_client.dir/build.make beginner_tutorials/CMakeFiles/averaging_client.dir/src/averaging_client.cpp.o
+.PHONY : src/averaging_client.cpp.o
+
+src/averaging_client.i: src/averaging_client.cpp.i
+
+.PHONY : src/averaging_client.i
+
+# target to preprocess a source file
+src/averaging_client.cpp.i:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_client.dir/build.make beginner_tutorials/CMakeFiles/averaging_client.dir/src/averaging_client.cpp.i
+.PHONY : src/averaging_client.cpp.i
+
+src/averaging_client.s: src/averaging_client.cpp.s
+
+.PHONY : src/averaging_client.s
+
+# target to generate assembly for a file
+src/averaging_client.cpp.s:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_client.dir/build.make beginner_tutorials/CMakeFiles/averaging_client.dir/src/averaging_client.cpp.s
+.PHONY : src/averaging_client.cpp.s
+
+src/averaging_server.o: src/averaging_server.cpp.o
+
+.PHONY : src/averaging_server.o
+
+# target to build an object file
+src/averaging_server.cpp.o:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_server.dir/build.make beginner_tutorials/CMakeFiles/averaging_server.dir/src/averaging_server.cpp.o
+.PHONY : src/averaging_server.cpp.o
+
+src/averaging_server.i: src/averaging_server.cpp.i
+
+.PHONY : src/averaging_server.i
+
+# target to preprocess a source file
+src/averaging_server.cpp.i:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_server.dir/build.make beginner_tutorials/CMakeFiles/averaging_server.dir/src/averaging_server.cpp.i
+.PHONY : src/averaging_server.cpp.i
+
+src/averaging_server.s: src/averaging_server.cpp.s
+
+.PHONY : src/averaging_server.s
+
+# target to generate assembly for a file
+src/averaging_server.cpp.s:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_server.dir/build.make beginner_tutorials/CMakeFiles/averaging_server.dir/src/averaging_server.cpp.s
+.PHONY : src/averaging_server.cpp.s
 
 src/fibonacci_client.o: src/fibonacci_client.cpp.o
 
@@ -1094,6 +1298,33 @@ src/talker.cpp.s:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_talker.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_talker.dir/src/talker.cpp.s
 .PHONY : src/talker.cpp.s
 
+src/timer.o: src/timer.cpp.o
+
+.PHONY : src/timer.o
+
+# target to build an object file
+src/timer.cpp.o:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/timer.dir/build.make beginner_tutorials/CMakeFiles/timer.dir/src/timer.cpp.o
+.PHONY : src/timer.cpp.o
+
+src/timer.i: src/timer.cpp.i
+
+.PHONY : src/timer.i
+
+# target to preprocess a source file
+src/timer.cpp.i:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/timer.dir/build.make beginner_tutorials/CMakeFiles/timer.dir/src/timer.cpp.i
+.PHONY : src/timer.cpp.i
+
+src/timer.s: src/timer.cpp.s
+
+.PHONY : src/timer.s
+
+# target to generate assembly for a file
+src/timer.cpp.s:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/timer.dir/build.make beginner_tutorials/CMakeFiles/timer.dir/src/timer.cpp.s
+.PHONY : src/timer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1105,6 +1336,8 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... timer"
+	@echo "... averaging_server"
 	@echo "... add_two_ints_client"
 	@echo "... beginner_tutorials_listener"
 	@echo "... beginner_tutorials_genpy"
@@ -1113,8 +1346,14 @@ help:
 	@echo "... beginner_tutorials_gennodejs"
 	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... beginner_tutorials_geneus"
-	@echo "... beginner_tutorials_gencpp"
+	@echo "... beginner_tutorials_generate_messages_cpp"
+	@echo "... fibonacci_client"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciActionResult"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingGoal"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingActionFeedback"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingActionGoal"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingAction"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciActionFeedback"
@@ -1124,11 +1363,15 @@ help:
 	@echo "... beginner_tutorials_talker"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciAction"
+	@echo "... beginner_tutorials_gencpp"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingFeedback"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... beginner_tutorials_genlisp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... beginner_tutorials_generate_messages_eus"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingActionResult"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... averaging_client"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... add_two_ints_server"
@@ -1139,8 +1382,8 @@ help:
 	@echo "... roscpp_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciFeedback"
+	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciResult"
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"
@@ -1150,20 +1393,24 @@ help:
 	@echo "... beginner_tutorials_generate_messages"
 	@echo "... fibonacci_server"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciActionGoal"
-	@echo "... fibonacci_client"
-	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciActionResult"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AddTwoInts"
 	@echo "... rebuild_cache"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_cpp"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_AveragingResult"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciGoal"
-	@echo "... _beginner_tutorials_generate_messages_check_deps_AddTwoInts"
-	@echo "... beginner_tutorials_generate_messages_cpp"
 	@echo "... src/add_two_ints_client.o"
 	@echo "... src/add_two_ints_client.i"
 	@echo "... src/add_two_ints_client.s"
 	@echo "... src/add_two_ints_server.o"
 	@echo "... src/add_two_ints_server.i"
 	@echo "... src/add_two_ints_server.s"
+	@echo "... src/averaging_client.o"
+	@echo "... src/averaging_client.i"
+	@echo "... src/averaging_client.s"
+	@echo "... src/averaging_server.o"
+	@echo "... src/averaging_server.i"
+	@echo "... src/averaging_server.s"
 	@echo "... src/fibonacci_client.o"
 	@echo "... src/fibonacci_client.i"
 	@echo "... src/fibonacci_client.s"
@@ -1176,6 +1423,9 @@ help:
 	@echo "... src/talker.o"
 	@echo "... src/talker.i"
 	@echo "... src/talker.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 .PHONY : help
 
 

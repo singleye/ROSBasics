@@ -393,3 +393,13 @@ add_dependencies(
   ${beginner_tutorials_EXPORTED_TARGETS}
 )
 ```
+
+
+# Time control
+
+ros::Rate
+
+ros::Timer
+
+[Understanding Timers](http://wiki.ros.org/roscpp_tutorials/Tutorials/Timers)
+[Overview of Timer](http://wiki.ros.org/roscpp/Overview/Timers)

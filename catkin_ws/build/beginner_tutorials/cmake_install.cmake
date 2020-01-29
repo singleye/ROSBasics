@@ -46,7 +46,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/action" TYPE FILE FILES "/home/wangq/Projects/ROS/catkin/catkin_ws/src/beginner_tutorials/action/Fibonacci.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/action" TYPE FILE FILES
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/src/beginner_tutorials/action/Fibonacci.action"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/src/beginner_tutorials/action/Averaging.action"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,6 +61,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/FibonacciGoal.msg"
     "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/FibonacciResult.msg"
     "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/FibonacciFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/msg" TYPE FILE FILES
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingAction.msg"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingActionGoal.msg"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingActionResult.msg"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingActionFeedback.msg"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingGoal.msg"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingResult.msg"
+    "/home/wangq/Projects/ROS/catkin/catkin_ws/devel/share/beginner_tutorials/msg/AveragingFeedback.msg"
     )
 endif()
 
