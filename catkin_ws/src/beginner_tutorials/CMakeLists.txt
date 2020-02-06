@@ -206,6 +206,14 @@ add_executable(fibonacci_client src/fibonacci_client.cpp)
 target_link_libraries(fibonacci_client ${catkin_LIBRARIES})
 add_dependencies(fibonacci_client ${beginner_tutorials_EXPORTED_TARGETS})
 
+add_executable(fibonacci_callback_client src/fibonacci_callback_client.cpp)
+target_link_libraries(fibonacci_callback_client ${catkin_LIBRARIES})
+add_dependencies(fibonacci_callback_client ${beginner_tutorials_EXPORTED_TARGETS})
+
+add_executable(fibonacci_class_client src/fibonacci_class_client.cpp)
+target_link_libraries(fibonacci_class_client ${catkin_LIBRARIES})
+add_dependencies(fibonacci_class_client ${beginner_tutorials_EXPORTED_TARGETS})
+
 # averaging action
 add_executable(averaging_server src/averaging_server.cpp)
 target_link_libraries(averaging_server ${catkin_LIBRARIES})

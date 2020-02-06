@@ -228,6 +228,21 @@ beginner_tutorials_listener/fast:
 .PHONY : beginner_tutorials_listener/fast
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/rule
+
+# Convenience name for target.
+fibonacci_callback_client: beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/rule
+
+.PHONY : fibonacci_callback_client
+
+# fast build rule for target.
+fibonacci_callback_client/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/build
+.PHONY : fibonacci_callback_client/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/rule
@@ -918,6 +933,21 @@ actionlib_generate_messages_eus/fast:
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/rule:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/rule
+
+# Convenience name for target.
+fibonacci_class_client: beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/rule
+
+.PHONY : fibonacci_class_client
+
+# fast build rule for target.
+fibonacci_class_client/fast:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/build
+.PHONY : fibonacci_class_client/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
@@ -1190,6 +1220,60 @@ src/averaging_server.cpp.s:
 	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/averaging_server.dir/build.make beginner_tutorials/CMakeFiles/averaging_server.dir/src/averaging_server.cpp.s
 .PHONY : src/averaging_server.cpp.s
 
+src/fibonacci_callback_client.o: src/fibonacci_callback_client.cpp.o
+
+.PHONY : src/fibonacci_callback_client.o
+
+# target to build an object file
+src/fibonacci_callback_client.cpp.o:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/src/fibonacci_callback_client.cpp.o
+.PHONY : src/fibonacci_callback_client.cpp.o
+
+src/fibonacci_callback_client.i: src/fibonacci_callback_client.cpp.i
+
+.PHONY : src/fibonacci_callback_client.i
+
+# target to preprocess a source file
+src/fibonacci_callback_client.cpp.i:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/src/fibonacci_callback_client.cpp.i
+.PHONY : src/fibonacci_callback_client.cpp.i
+
+src/fibonacci_callback_client.s: src/fibonacci_callback_client.cpp.s
+
+.PHONY : src/fibonacci_callback_client.s
+
+# target to generate assembly for a file
+src/fibonacci_callback_client.cpp.s:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_callback_client.dir/src/fibonacci_callback_client.cpp.s
+.PHONY : src/fibonacci_callback_client.cpp.s
+
+src/fibonacci_class_client.o: src/fibonacci_class_client.cpp.o
+
+.PHONY : src/fibonacci_class_client.o
+
+# target to build an object file
+src/fibonacci_class_client.cpp.o:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/src/fibonacci_class_client.cpp.o
+.PHONY : src/fibonacci_class_client.cpp.o
+
+src/fibonacci_class_client.i: src/fibonacci_class_client.cpp.i
+
+.PHONY : src/fibonacci_class_client.i
+
+# target to preprocess a source file
+src/fibonacci_class_client.cpp.i:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/src/fibonacci_class_client.cpp.i
+.PHONY : src/fibonacci_class_client.cpp.i
+
+src/fibonacci_class_client.s: src/fibonacci_class_client.cpp.s
+
+.PHONY : src/fibonacci_class_client.s
+
+# target to generate assembly for a file
+src/fibonacci_class_client.cpp.s:
+	cd /home/wangq/Projects/ROS/catkin/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/build.make beginner_tutorials/CMakeFiles/fibonacci_class_client.dir/src/fibonacci_class_client.cpp.s
+.PHONY : src/fibonacci_class_client.cpp.s
+
 src/fibonacci_client.o: src/fibonacci_client.cpp.o
 
 .PHONY : src/fibonacci_client.o
@@ -1340,6 +1424,7 @@ help:
 	@echo "... averaging_server"
 	@echo "... add_two_ints_client"
 	@echo "... beginner_tutorials_listener"
+	@echo "... fibonacci_callback_client"
 	@echo "... beginner_tutorials_genpy"
 	@echo "... beginner_tutorials_generate_messages_py"
 	@echo "... beginner_tutorials_generate_messages_nodejs"
@@ -1386,6 +1471,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_FibonacciResult"
 	@echo "... actionlib_generate_messages_eus"
+	@echo "... fibonacci_class_client"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... test"
 	@echo "... actionlib_generate_messages_nodejs"
@@ -1411,6 +1497,12 @@ help:
 	@echo "... src/averaging_server.o"
 	@echo "... src/averaging_server.i"
 	@echo "... src/averaging_server.s"
+	@echo "... src/fibonacci_callback_client.o"
+	@echo "... src/fibonacci_callback_client.i"
+	@echo "... src/fibonacci_callback_client.s"
+	@echo "... src/fibonacci_class_client.o"
+	@echo "... src/fibonacci_class_client.i"
+	@echo "... src/fibonacci_class_client.s"
 	@echo "... src/fibonacci_client.o"
 	@echo "... src/fibonacci_client.i"
 	@echo "... src/fibonacci_client.s"

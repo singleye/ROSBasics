@@ -403,3 +403,9 @@ ros::Timer
 
 [Understanding Timers](http://wiki.ros.org/roscpp_tutorials/Tutorials/Timers)
 [Overview of Timer](http://wiki.ros.org/roscpp/Overview/Timers)
+
+
+# Dynamic config
+
+* [Writing Publisher/Subscriber with Parameters, Dynamic Reconfigure and Custom Messages ](http://wiki.ros.org/ROSNodeTutorialC%2B%2B)
+* [Setting Up Dynamic Reconfigure for a Node](http://wiki.ros.org/dynamic_reconfigure/Tutorials/SettingUpDynamicReconfigureForANode)
